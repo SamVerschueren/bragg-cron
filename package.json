@@ -1,0 +1,38 @@
+{
+  "name": "bragg-cron",
+  "version": "0.0.0",
+  "description": "Cronjob middleware for bragg",
+  "license": "MIT",
+  "repository": "SamVerschueren/bragg-cron",
+  "author": {
+    "name": "Sam Verschueren",
+    "email": "sam.verschueren@gmail.com",
+    "url": "github.com/SamVerschueren"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "bragg",
+    "framework",
+    "cron",
+    "cronjob",
+    "events",
+    "scheduled",
+    "scheduled-event",
+    "aws",
+    "lambda"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "*",
+    "load-json-file": "^2.0.0",
+    "xo": "*"
+  }
+}
